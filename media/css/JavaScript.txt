@@ -1,0 +1,17 @@
+var Ivan = {
+	type: 11,
+	info: {
+	fullname:{
+		first: "Ivan",
+		second: "Fio"
+		}
+	}
+}
+
+// ivan.type
+// ivan.info.fullname.first
+
+const deepPick = (fields, object={}) => {
+		const [first, ...remain] = fields.split(".");
+		return (remain.lenht) ? deepPick(remain.join("."), object[first]) : object[first];
+}

@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0:
+}
+
+#header {
+    height: 160px;
+}
+
+#logotext {
+	float:right;
+    margin-right:20px;
+    color:black;
+    text-shadow: 1px 1px 1px black;
+    background: white;
+    border-radius: 6px;
+    padding:20px;
+}
+
+#auth {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+}
+
+#logo {
+    float: left;
+    padding: 20px;
+    width: 200px;
+}
+.menu {
+    display: flex;
+    width:100%;
+}
+.menu a{
+    flex:1;
+    text-decoration: none;
+    color:whitesmoke;
+    text-align: center;
+	background-color: #474e5b;
+    padding:10px 0;
+    border-right:solid 1px black;
+}
+.menu a:hover {
+    background-color: #474e5b73;
+    color:white;
+}
+#content-woman {
+    margin: 20px;
+    padding: 15px;
+}
+
+#man {
+    margin: 20px;
+    padding: 15px;
+}
+
+#footer{
+    padding:50px 0;
+    text-align: center;
+    background: #474e5b;
+}
+
+.choose-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.content {
+    margin: -10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.img-content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+.img-content  img{
+	max-width: 400px;
+    max-height: 590px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.button-style{
+	background: #474e5b;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	border: 1px #c5d9d8 solid;
+	color:whitesmoke;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.woman {
+    width: 401px;
+}
+
+.men {
+    width: 401px;
+}
+
+.accessories {
+    width: 401px;
+}
+
+.page {
+    display: none;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.page:target {
+        display: flex;
+ }
+
+#register {
+    margin: 10px;
+    padding: 20px;
+}
+
+.row g-3 {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.col-md-6 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.col-12 {
+    padding: 10px;
+    margin: 5px;
+}
+.col-md-6 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.col-md-4 {
+    padding: 11px;
+    margin: 7px;
+    display: grid;
+}
+
+#sign {
+    justify-content: center;
+}
+.mb-3 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.form-check-input {
+    margin: 26px;
+}
+
+.form-check-label {
+    margin: 26px;
+}
+
+.submit {
+    margin: 15px;
+}
+
+.t1-title {
+    padding: 10px;
+    align-items: center;
+    font-size: xx-large;
+    display: flex;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.t2-number {
+    padding: 10px;
+    align-items: center;
+    font-size: xx-large;
+    display: flex;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: larger;
+}
+.t3-adress {
+    padding: 10px;
+    align-items: center;
+    font-size: xx-large;
+    display: flex;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: larger;
+}

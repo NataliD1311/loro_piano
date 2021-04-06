@@ -1,0 +1,44 @@
+#player {
+    width: 740px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #474e5b;
+    border: solid 1px olive;
+    border-radius: 6px;
+}
+
+#play, #mute {
+    padding: 2px 10px;
+    width: 65px;
+    border: solid 1px green;
+    background: whitesmoke;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#buttons1 {
+    float: left;
+    width: 150px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+#bar {
+    float: left;
+    width: 400px;
+    height: 16px;
+    padding: 2px;
+    margin: 2px 5px;
+    border: solid 1px blue;
+    background: #eee;
+}
+
+#progress {
+    width: 0px;
+    height: 10px;
+    background: #474e5b;
+}
+
+#clear {
+    clear: both;
+}
