@@ -180,7 +180,6 @@ body {
     align-items: center;
     font-size: xx-large;
     display: flex;
-    font-family: inherit;
     font-weight: bold;
     font-size: xx-large;
 }
@@ -190,16 +189,41 @@ body {
     align-items: center;
     font-size: xx-large;
     display: flex;
-    font-family: inherit;
-    font-weight: bold;
     font-size: larger;
 }
 .t3-adress {
     padding: 10px;
     align-items: center;
-    font-size: xx-large;
     display: flex;
+    font-size: larger;
+}
+
+.col {
+    padding: 20px;
+}
+.carousel-item2 {
+    width: 650px;
+}
+.story_t {
+    text-align: center;
+    font-weight: 500;
+}
+.story_title {
+    margin: 5px;
     font-family: inherit;
     font-weight: 500;
     font-size: larger;
+    text-align: center;
+}
+.story_text {
+    line-height: 1.75;
+    margin-bottom: 38px;
+    margin-top: 25px;
+    text-align: center;
+}
+.col-2 {
+    padding: 20px;
+}
+.pay_adress {
+    padding: 50px;
 }
